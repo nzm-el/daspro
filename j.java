@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Kafe17 {
+public class j {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String namaPelanggan = "Andi";
@@ -14,7 +14,7 @@ public class Kafe17 {
             System.out.println("\nMasukan nomor menu yang ingin Anda");
             System.out.print("pesan (1-6) atau 0 untuk selesai : ");
             int pilihanMenu = sc.nextInt();
- 
+
             if (pilihanMenu == 0) {
                 lanjut = false; 
                 continue; 
